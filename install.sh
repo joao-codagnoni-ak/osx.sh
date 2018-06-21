@@ -36,6 +36,7 @@ brew cask install mactex-no-gui
 brew cask install xquartz
 
 brew install python3 pip3
+brew install cling
 
 pip3 install numpy scipy matplotlib pandas \
                                     tensorflow-gpu keras \
