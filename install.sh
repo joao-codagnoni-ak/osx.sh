@@ -35,6 +35,13 @@ brew cask install mpv vlc
 brew cask install mactex-no-gui
 brew cask install xquartz
 
+brew install python3 pip3
+
+pip3 install numpy scipy matplotlib pandas \
+                                    tensorflow-gpu keras \
+                                    scikit-image scikit-learn \
+                                    jsonschema jinja2 tornado pyzmq ipython jupyter
+
 curl -L https://get.oh-my.fish | fish
 omf install budspencer
 omf theme budspencer
