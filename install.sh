@@ -41,6 +41,8 @@ pip3 install numpy scipy matplotlib pandas \
                                     tensorflow-gpu keras \
                                     scikit-image scikit-learn \
                                     jsonschema jinja2 tornado pyzmq ipython jupyter
+pip3 install jupyterthemes
+jt -t chesterish -f firacode -fs 16 -cellw 90%
 
 curl -L https://get.oh-my.fish | fish
 omf install budspencer
