@@ -15,6 +15,7 @@ brew install qt
 brew install opencv ffmpeg 
 brew install boost clang-format cmake ninja pkg-config
 
+brew tap caskroom/fonts
 brew cask install font-fira-code \
     font-fira-mono \
     font-fira-mono-for-powerline \
